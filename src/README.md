@@ -22,10 +22,10 @@ The project contains generators for several graph families:
 - Large synthetic benchmark graphs with a known optimal solution
 
 
-## Project structure
+## Code files structure
 
 ```
-graph.h / gzzraph.cpp            Graph data structure
+graph.h / graph.cpp            Graph data structure
 greedy.h / greedy.cpp            Classical greedy algorithm
 smart_greedy.h / smart_greedy.cpp Improved greedy algorithm
 honest_solution.h / .cpp         Exact solution found via dynamic programming approach
