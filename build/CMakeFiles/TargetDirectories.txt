@@ -1,3 +1,0 @@
-/home/admin1/MaximumAcyclicSubgraph/build/CMakeFiles/complexity_project.dir
-/home/admin1/MaximumAcyclicSubgraph/build/CMakeFiles/edit_cache.dir
-/home/admin1/MaximumAcyclicSubgraph/build/CMakeFiles/rebuild_cache.dir
