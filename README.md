@@ -1,6 +1,6 @@
 # Maximum Acyclic Subgraph
 
-Implementation and experimental evaluation of approximation algorithms for the **Maximum Acyclic Subgraph (MAS)** problem.
+Implementation and experimental evaluation of algorithms for the **Maximum Acyclic Subgraph (MAS)** problem.
 
 This project was developed as a part of university course on computational complexity.
 
@@ -13,7 +13,7 @@ The problem is NP-hard, making exact algorithms infeasible for large instances. 
 This project implements both exact and greedy algorithms and compares their accuracy on several families of directed graphs.
 
 
-The proof of NP-hardness of MAS problem is presented in the article, as well as the full description of both approximation algorithms and their correction proofs. 
+The proof of NP-hardness of the MAS problem is presented in the article, as well as the full description of both approximation algorithms and correctness proofs. 
 
 
 ## Graph generators
@@ -36,13 +36,11 @@ The algorithms were tested on multiple graph families.
 
 For small graphs, the exact dynamic programming algorithm was used to compute the optimal solution.
 
-For larger graphs, specially constructed graph families with known optimal answers were used.
+For larger graphs, specially constructed graph families with known optimal solutions were used.
 
 The reported performance measure is the average approximation ratio
 
-\[
-\frac{|E_{\text{algorithm}}|}{|E_{\text{optimal}}|}
-\]
+`|E_algorithm| / |E_optimal|`
 
-computed over multiple randomly generated instances.
+computed over multiple randomly generated graph instances.
 
