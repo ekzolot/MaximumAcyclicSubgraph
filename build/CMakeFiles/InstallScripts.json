@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/admin1/MaximumAcyclicSubgraph/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
