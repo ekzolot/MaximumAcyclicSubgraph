@@ -14,7 +14,7 @@ This project implements both exact and greedy algorithms and compares their accu
 
 
 The proof of NP-hardness of the MAS problem is presented in the article, as well as the full description of both approximation algorithms and correctness proofs. 
-
+The article text is in article/MaximumAcyclicSubgraph.pdf.
 
 ## Graph generators
 
